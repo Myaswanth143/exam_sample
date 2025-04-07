@@ -32,7 +32,7 @@ const quiz_arr = [
   },
 ];
 let results_arr = [];
-let time = 3;
+let time = 20;
 let timeinterval;
 const startTimer = function () {
   timer.innerHTML = time;
