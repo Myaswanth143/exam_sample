@@ -1,4 +1,3 @@
-// "use strict";
 
 const startExam = document.querySelector(".start-exam");
 const timer = document.querySelector(".timer");
@@ -32,7 +31,7 @@ const quiz_arr = [
   },
 ];
 let results_arr = [];
-let time = 20;
+let time = 25;
 let timeinterval;
 const startTimer = function () {
   timer.innerHTML = time;
@@ -90,8 +89,11 @@ submitbtn.addEventListener(
     document.querySelector(".quiz-page").style.display = "none";
     final_score.innerHTML = finalResults;
     final_score.style.display = "none";
-    clearInterval(timeinterval);
     document.querySelector(".resultsbtn").style.display = "block";
+    // clearInterval(setInterval);
+    clearInterval(timeinterval);
+    // timer.style.display = "none";
+    // document.querySelector(".container-2").style.display = "none";
   })
 );
 resultsbtn.addEventListener("click", function () {
@@ -99,5 +101,3 @@ resultsbtn.addEventListener("click", function () {
 
   final_score.style.display = "block";
 });
-
-// console.log(results_arr);
