@@ -1,0 +1,32 @@
+.container-1,
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  /* color: white; */
+  display: grid;
+  background-color: green;
+  border: 1px green solid;
+  border-radius: 10px;
+  padding: 8px;
+  color: aliceblue;
+  cursor: pointer;
+  align-items: center;
+  justify-items: center;
+}
+.resultsbtn {
+  display: none;
+}
+.quiz-page {
+  display: block;
+  margin-left: 560px;
+  line-height: 30px;
+}
+.container-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
