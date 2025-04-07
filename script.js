@@ -90,6 +90,7 @@ submitbtn.addEventListener(
     document.querySelector(".quiz-page").style.display = "none";
     final_score.innerHTML = finalResults;
     final_score.style.display = "none";
+    clearInterval(timeinterval);
     document.querySelector(".resultsbtn").style.display = "block";
   })
 );
